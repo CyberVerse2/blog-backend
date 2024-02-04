@@ -1,12 +1,10 @@
 ---
 
-# ExpressJS Project
-
-[![StartEase](https://img.shields.io/badge/Generated%20by-StartEase-blue)](https://github.com/JC-Coder/startease)
+# Blog Project
 
 ## Overview
 
-Welcome to your project generated using StartEase! This guide will walk you through the basic configuration steps to get your backend project up and running.
+This is a simple blog backend that allows users to manage their blogs.
 
 ## Prerequisites
 
@@ -44,6 +42,7 @@ Your project relies on environment variables for configuration. To set up these 
    APP_NAME=YourAppName
    APP_PORT=3000
    APP_ENV=development
+   DB_URL=url
    ```
 
    Note: configuration variables should be added based on config in the environment.js file.
